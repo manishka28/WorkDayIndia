@@ -100,7 +100,7 @@ const Footer = () => {
                   <span>
                     <TfiWorld />
                   </span>
-                  English
+                  हिन्दी
                 </div>
                 <span className="flex items-center gap-2 cursor-pointer">
                   <span>

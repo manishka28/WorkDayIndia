@@ -21,7 +21,7 @@ const GigsDetails = ({ data, id, userId }) => {
   return (
     <div className="w-full flex items-start justify-start gap-3 flex-col">
       <div className="flex items-center justify-start gap-2 text-gray-500 text-sm font-medium">
-        <span className="text-active">FIVERR </span>
+        <span className="text-active">रोजगार भारत</span>
         <span>
           <BiChevronRight />
         </span>

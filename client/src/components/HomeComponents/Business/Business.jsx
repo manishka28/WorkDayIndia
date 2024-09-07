@@ -3,6 +3,7 @@ import { BsCheckCircle } from "react-icons/bs";
 import { Link } from "react-router-dom";
 import userImg from "../../../assets/images/video2.mp4";
 import { businessData } from "../../../data/data";
+import "./buz.css";
 
 const Business = () => {
   return (
@@ -11,8 +12,9 @@ const Business = () => {
         <div className="flex lg:items-center items-start justify-start flex-col lg:flex-row lg:justify-between w-full gap-8 lg:gap-5">
           <div className="flex-1 flex items-start justify-start flex-col gap-5">
             <h4 className="text-lg md:text-3xl font-bold">
-              <span>fiverr</span>
-              <span className="font-normal"> business.</span>
+              <span>रोजगार भारत</span>
+              <span className="font-normal"> Trends</span>
+              <span className="dots-animation">...</span>
             </h4>
             <h2 className="text-xl md:text-4xl font-bold">
               A business solution <br /> designed for{" "}
@@ -43,7 +45,7 @@ const Business = () => {
               to="/"
               className="w-fit bg-primary py-2 px-5 text-base font-semibold rounded mt-8 transition-all hover:bg-primary/75"
             >
-              Explore Fiverr Business
+              Trending Skills
             </Link>
           </div>
           <div className="flex-1">

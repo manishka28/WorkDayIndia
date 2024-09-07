@@ -105,7 +105,7 @@ const Login = ({ show, setShow }) => {
           className="w-[406px] min-h-[450px] border border-[#F1F2F4] rounded-lg bg-white p-4 md:p-8 overflow-y-auto text-darkColor flex flex-col items-center relative"
         >
           <h2 className="w-full text-center text-2xl font-bold">
-            Sign In to Fiverr
+            Sign In to रोजगार भारत
           </h2>
           <form
             onSubmit={handleSubmit}

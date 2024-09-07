@@ -87,7 +87,7 @@ const MyGigs = () => {
             </div>
           ) : error ? (
             <p className="text-2xl text-red-400 font-normal">
-              Error : Something went wrong
+              
             </p>
           ) : (
             <>

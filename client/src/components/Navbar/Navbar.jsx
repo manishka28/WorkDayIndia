@@ -118,16 +118,11 @@ const Navbar = () => {
               <span>
                 <TfiWorld />
               </span>
-              Hindi
+              हिन्दी
             </div>
-            <span className="hidden lg:flex items-center gap-2 cursor-pointer">
-              <span>
-                <BsCurrencyRupee />
-              </span>
-              INR
-            </span>
+           
             {!authUser?.isSeller && (
-              <p className="cursor-pointer hidden lg:flex">Become a Seller</p>
+              <p className="cursor-pointer hidden lg:flex">Become a Freelancer</p>
             )}
             {authUser ? (
               <>
@@ -199,8 +194,8 @@ const Navbar = () => {
                 </div>
                 <NavLink
                   to="/join"
-                  className={`border py-2 px-5 rounded hover:bg-primary hover:border-primary hover:text-white transition-all duration-300 text-sm font-semibold ${
-                    active ? "text-primary border-primary" : ""
+                  className={`border py-2 px-5 rounded hover:bg-[#1230AE] hover:border-primary hover:text-white transition-all duration-300 text-sm font-semibold ${
+                    active ? "text-[#1230AE] border-[#1230AE]" : ""
                   }`}
                 >
                   Join

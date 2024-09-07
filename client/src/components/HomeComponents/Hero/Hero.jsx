@@ -95,7 +95,7 @@ const Hero = () => {
             <button
               onClick={handleSubmit}
               type="submit"
-              className="bg-primary h-full lg:w-[150px] outline-none absolute top-16 lg:relative lg:top-0 rounded-md lg:rounded-[0] lg:rounded-tr-md lg:rounded-br-md w-full"
+              className="bg-[#1230AE] h-full lg:w-[150px] outline-none absolute top-16 lg:relative lg:top-0 rounded-md lg:rounded-[0] lg:rounded-tr-md lg:rounded-br-md w-full"
             >
               Search
             </button>
