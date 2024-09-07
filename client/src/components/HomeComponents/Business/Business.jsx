@@ -1,7 +1,7 @@
 import React from "react";
 import { BsCheckCircle } from "react-icons/bs";
 import { Link } from "react-router-dom";
-import userImg from "../../../assets/images/businessImg.png";
+import userImg from "../../../assets/images/video2.mp4";
 import { businessData } from "../../../data/data";
 
 const Business = () => {
@@ -47,7 +47,7 @@ const Business = () => {
             </Link>
           </div>
           <div className="flex-1">
-            <img src={userImg} alt="business_image" className="w-full" />
+            <video src={userImg} alt="business_image" className="w-full" autoPlay muted loop  />
           </div>
         </div>
       </div>
